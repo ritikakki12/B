@@ -149,7 +149,7 @@ def add_user(message):
         else:
             response = "Please specify a User ID and subscription period to add."
     else:
-        response = "𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑 𝐂𝐀𝐍 𝐃𝐎 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃."
+        response = "RITIK PAPA."
 
     bot.reply_to(message, response)
 
@@ -174,7 +174,7 @@ def remove_user(message):
         else:
             response = "𝐏𝐥𝐞𝐚𝐬𝐞 𝐬𝐩𝐞𝐜𝐢𝐟𝐲 𝐚 𝐔𝐬𝐞𝐫 𝐈𝐃 𝐭𝐨 𝐫𝐞𝐦𝐨𝐯𝐞."
     else:
-        response = "𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑 𝐂𝐀𝐍 𝐃𝐎 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃."
+        response = "RITIK PAPA."
 
     bot.reply_to(message, response)
 
@@ -184,7 +184,7 @@ def clear_logs_command(message):
     if user_id in admin_id:
         response = clear_logs()
     else:
-        response = "𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑 𝐂𝐀𝐍 𝐃𝐎 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃."
+        response = "RITIK PAPA."
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['allusers'])
@@ -209,7 +209,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found."
     else:
-        response = "𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑 𝐂𝐀𝐍 𝐃𝐎 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃."
+        response = "RITIK PAPA."
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -227,7 +227,7 @@ def show_recent_logs(message):
             response = "No data found."
             bot.reply_to(message, response)
     else:
-        response = "𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑 𝐂𝐀𝐍 𝐃𝐎 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃."
+        response = "RITIK PAPA."
         bot.reply_to(message, response)
 
 # Function to handle the reply when free users run the /bgmi command
@@ -246,7 +246,7 @@ f"🌪️ **𝗧𝗮𝗿𝗴𝗲𝘁 𝗸𝗼 𝗰𝗵𝗵𝗼𝗱𝗻𝗮 𝗺�
     
     keyboard = telebot.types.InlineKeyboardMarkup()
     keyboard.add(
-        telebot.types.InlineKeyboardButton("SUPPORT", url="https://t.me/+e2bVmqn0Zno5YjBl")
+        telebot.types.InlineKeyboardButton("SUPPORT", url="https://t.me/FEEDBACKDDOS247")
     )
     
     bot.reply_to(message, response, parse_mode='Markdown', reply_markup=keyboard)
@@ -289,7 +289,7 @@ def handle_bgmi(message):
         else:
             response = "💠𝐈𝐭'𝐬 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐭𝐭𝐚𝐜𝐤💠 \n\n/𝐚𝐭𝐭𝐚𝐜𝐤 <𝐭𝐚𝐫𝐠𝐞𝐭> <𝐩𝐨𝐫𝐭> <𝐭𝐢𝐦𝐞>\n\nＲＥＡＤＹ ＦＯＲ ＳＥＸＸ"  # Updated command syntax
     else:
-        response = "𝐔𝐧𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐓𝐨 𝐔𝐬𝐞 𝐏𝐥𝐞𝐚𝐬𝐞 𝐃𝐌 𝐭𝐨 𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑"
+        response = "𝐔𝐧𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐓𝐨 𝐔𝐬𝐞 𝐏𝐥𝐞𝐚𝐬𝐞 𝐃𝐌 𝐭𝐨 @RitikXyz099"
 
     bot.reply_to(message, response)
 
@@ -358,7 +358,7 @@ def show_admin_commands(message):
         response += "/remove <user_id> - Remove a user\n"
         bot.reply_to(message, response)
     else:
-        response = "𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑 𝐂𝐀𝐍 𝐃𝐎 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃."
+        response = "RITIK PAPA."
         bot.reply_to(message, response)
 
 @bot.message_handler(commands=['id'])
@@ -387,8 +387,8 @@ def show_help(message):
 """
     keyboard = telebot.types.InlineKeyboardMarkup()
     keyboard.row(
-        telebot.types.InlineKeyboardButton('Updates', url='https://t.me/+-DHMRIL1oQRlMjhl'),
-        telebot.types.InlineKeyboardButton('Support', url='https://t.me/+e2bVmqn0Zno5YjBl')
+        telebot.types.InlineKeyboardButton('Updates', url='https://t.me/FEEDBACKDDOS247'),
+        telebot.types.InlineKeyboardButton('Support', url='https://t.me/FEEDBACKDDOS247')
     )
 
     bot.reply_to(message, response, parse_mode='Markdown', reply_markup=keyboard)
@@ -412,8 +412,8 @@ def welcome_start(message):
     
     keyboard = telebot.types.InlineKeyboardMarkup()
     keyboard.row(
-        telebot.types.InlineKeyboardButton('UPDATES', url='https://t.me/+-DHMRIL1oQRlMjhl'),
-        telebot.types.InlineKeyboardButton('SUPPORT', url='https://t.me/+PbJPDGt1VFhkMzVl')  
+        telebot.types.InlineKeyboardButton('UPDATES', url='https://t.me/FEEDBACKDDOS247'),
+        telebot.types.InlineKeyboardButton('SUPPORT', url='https://t.me/FEEDBACKDDOS247')  
     )
 
     bot.reply_to(message, response, reply_markup=keyboard)
